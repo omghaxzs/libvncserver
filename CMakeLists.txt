@@ -495,20 +495,20 @@ SET_TARGET_PROPERTIES(vncclient vncserver
 
 # EXAMPLES
 set(LIBVNCSERVER_EXAMPLES
-    backchannel
-    camera
-    colourmaptest
-    example
-    fontsel
-    pnmshow
-    pnmshow24
-    regiontest
-    repeater
-    rotate
-    simple
-    simple15
-    storepasswd
-    vncev
+    #backchannel
+    #camera
+    #colourmaptest
+    #example
+    #fontsel
+    #pnmshow
+    #pnmshow24
+    #regiontest
+    #repeater
+    #rotate
+    #simple
+    #simple15
+    #storepasswd
+    #vncev
   )
 
 if(CMAKE_USE_PTHREADS_INIT)
@@ -542,8 +542,8 @@ if(ANDROID)
 endif(ANDROID)
 
 set(LIBVNCCLIENT_EXAMPLES
-    backchannel
-    ppmtest
+    #backchannel
+    #ppmtest
 )
 
 if(SDL2_FOUND)
